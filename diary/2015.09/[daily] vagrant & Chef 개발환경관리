@@ -1,0 +1,38 @@
+출처 : http://mobicon.tistory.com/322
+
+### 설치
+  - VirtualBox 다운로드 및 설치
+  - Vagrant 다운로드 및 설치
+  - Vagrant 환경 설정
+    + 프로젝트 디렉토리를 하나 만든다. 또는 기존 Project가 있으면 디렉토리로 이동한다. VirtualBox에 원하는 이미지를 다운로드하여 설치한다. 이미지는 Vagrant에서 패키징한 Box를 다운로드할 수 있는 별도 사이트를 제공한다
+    + Box는 기본설정과 OS가 설치된 VM 템플릿 이미지이다
+
+- 형식 : vagrant box add [title] [download-url]
+```
+$ vagrant box add centos64 http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130427.box
+```
+- 프로젝트를 초기화 한다
+```
+$ vagrant init centos64
+```
+---
+
+### 가상머신 기동
+  - Vagrant 통해 가상머신 기동하기
+
+- 기동
+```
+$ vagrant up
+```
+
+- VM 들어가기 : 같은 디렉토리면 ssh를 n개까지 open 가능
+ ssh를 통하여 별도의 VM 으로 들어갈 수가 있는 것이다.
+ 단, vagrant init [title] 된 Vagrantfile 파일이 같은 디렉토리에 있어야 함
+```
+$ vagrant ssh
+```
+
+- 정지
+```
+$ vagrant halt
+```
