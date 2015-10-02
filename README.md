@@ -6,6 +6,9 @@
 - OpenStack
 - Docker
 - kubernetes
+- vagrant 
+- Chef
+- Puppet
 
 
 ---
