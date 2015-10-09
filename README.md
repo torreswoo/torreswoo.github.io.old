@@ -22,3 +22,5 @@
 #### 2015.10
 - ElasticSearch
 - Meteor.js
+- Linux : iptables
+- [install] JDK

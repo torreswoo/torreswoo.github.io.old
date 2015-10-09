@@ -11,7 +11,7 @@ $> bin/plugin --list
 $> bin/plugin --remove head
 $> bin/plugin --install mobz/elasticsearch-head   //http://localhost:9200/_plugin/head/
 $> bin/plugin --install lukas-vlcek/bigdesk     //http://localhost:9200/_plugin/bigdesk/
-$> bin/plugin --install enezes/elasticsearch-kopf  // http://localhost:9200/_plugin/kopf/
+$> bin/plugin --install lmenezes/elasticsearch-kopf  // http://localhost:9200/_plugin/kopf/
 ```
 
 3. 실행
@@ -36,12 +36,10 @@ $> bin/elasticsearch -d (d는 백그라운드로)
 
 ---
 
-
 - 데이터구조
 Database -> Index
 Table -> Type
 Row -> Document : 데이터가 저장되는 최소의 단위
-
 
 ```
 //REST API

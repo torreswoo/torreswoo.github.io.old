@@ -67,9 +67,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 end
 ```
 
+### Multi Machine
+- https://docs.vagrantup.com/v2/multi-machine/
+```
+config.vm.define "elastic01"
+config.vm.define "elastic01"
+```
+
+---
 
 //
-
 http://okky.kr/article/265177
 
 
@@ -82,3 +89,37 @@ sudo iptables -I INPUT 1 -p tcp --dport 9200 -j ACCEPT
 
 
 lsof -i -P | grep -i "listen"
+
+
+```
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  # dev
+  config.vm.define :dev do |dev_config|
+     dev_config.vm.host_name = "dev"
+     dev_config.vm.network "public_network", ip: "10.0.0.100"
+     dev_config.vm.box = "centos64"
+     dev_config.vm.network "forwarded_port", guest: 9200, host: 9200, auto_correct: true # elastic
+  end
+
+  # elastic01
+  config.vm.define :elastic01 do |vm01_config|
+     vm01_config.vm.host_name = "elastic01"
+     vm01_config.vm.network "public_network", ip: "10.0.0.101"
+     vm01_config.vm.box = "centos64"
+     vm01_config.vm.network "forwarded_port", guest: 9200, host: 9200, auto_correct: true # elastic
+  end
+
+  # elastic02
+  config.vm.define :elastic02 do |vm02_config|
+     vm02_config.vm.host_name = "elastic02"
+     vm02_config.vm.network "public_network", ip: "10.0.0.102"
+     vm02_config.vm.box = "centos64"
+     vm02_config.vm.network "forwarded_port", guest: 9200, host: 9200, auto_correct: true # elastic
+  end
+
+end
+```
