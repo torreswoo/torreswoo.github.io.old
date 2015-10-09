@@ -6,7 +6,7 @@
 - OpenStack
 - Docker
 - kubernetes
-- vagrant 
+- vagrant
 - Chef
 - Puppet
 
@@ -18,3 +18,7 @@
 - [URL 설계 : RPC, REST, elegant]()
 - study_python : WebProgramming (web server & client module)
 - [vagrant & Chef : 개발환경관리]()
+
+#### 2015.10
+- ElasticSearch
+- Meteor.js

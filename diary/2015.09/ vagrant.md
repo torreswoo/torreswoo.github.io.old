@@ -1,10 +1,10 @@
-출처 : http://mobicon.tistory.com/322
-http://wiki.opencloudengine.org/pages/viewpage.action?pageId=2852295
 
-
-# Vagrind
+# Vagrand
 - 간소화된, VM 관리 서비스. Virtual Box와 같은 Hypervisor가 있다고 해도, VM을 생성하는 것 자체가 번거로운 작업.
 Hypervisor에서 논리적인 가상 하드웨어 머신을 생성하고 가상머신에 OS를 설치하고, 일일이 설정을 해줘야 한다. 이런 반복적인 작업을 조금더 손쉽게 자동화 할 수 없을까? 하는 아이디어에서 시작한 것이 Vagrant.
+- 출처 : http://mobicon.tistory.com/322
+http://wiki.opencloudengine.org/pages/viewpage.action?pageId=2852295
+
 
 ### 설치
   - VirtualBox 다운로드 및 설치
@@ -66,3 +66,19 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :inline => "sudo apt-get install -y apache2"
 end
 ```
+
+
+//
+
+http://okky.kr/article/265177
+
+
+// Linux 포트확인
+netstat -anp | grep "LISTEN "
+netstat -tnlp | grep -v 127.0.0.1 | sed 's/:::/0 /g' | sed 's/[:\/]/ /g' | awk '{print $5"\t"$10}' | sort -ug
+
+// 특정포트의 방화벽해제
+sudo iptables -I INPUT 1 -p tcp --dport 9200 -j ACCEPT
+
+
+lsof -i -P | grep -i "listen"
