@@ -20,7 +20,11 @@
 - [vagrant & Chef : 개발환경관리]()
 
 #### 2015.10
-- ElasticSearch
-- Meteor.js
+- ElasticSearch -> study_ElasticSearch
+- Meteor.js -> study_meteorjs
 - Linux : iptables
 - [install] JDK
+- Java
+   - Effective Java
+   - Java8
+   - Design Pattern
