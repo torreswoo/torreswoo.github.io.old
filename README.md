@@ -21,6 +21,8 @@
 
 #### 2015.10
 - ElasticSearch -> study_ElasticSearch
+   - ElasticSearch REST API : https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+   - ElasticSearch Java API : https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-api.html
 - Meteor.js -> study_meteorjs
 - Linux : iptables / du & df
 - [install] JDK
@@ -34,7 +36,7 @@
    - bitbucket
    - git remote : https://git-scm.com/book/ko/v1/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C
 
-- SpringBoot
+- SpringBoot -> study_SpringBoot
    - Controller / Service / Configuration
 - lombok : 애노테이션으로 자바코드를 간단하게
    - https://www.lesstif.com/display/JAVA/Lombok+-+Java+annotation+library
