@@ -44,6 +44,24 @@
    - Gson
    - Jackson
 
+- lombok & LoggingLEVEL 주의사항
+   - lombok으로 toString 객체를 debug log 에 그냥찍으면 log LEVEL을 debug로 하지 안더라도 파싱이 되어 성능에 영향을 준다.
+
+- DB MySQL MMM
+   - https://opentutorials.org/course/196/1323
+
+- vim & vundle & ctags & cscope 정리
+
+- Lisp & Clojure
+   - ClojureScript HTML5 Game Programming with phaser.js : https://github.com/philoskim/cs-game
+   - ClojureScript로하는 함수형 UI 프로그래밍
+   - iOS 앱 개발 with React Native + ClojureScript
+   - Clojure HTTP API 서버 구현을 위한 라이브러리 / Kakao 김은민
+   - CommonLisp으로 하는 실시간 WebGL 프로그래밍
+
+
+---
+
 ### Slack & Hubot & Heroku
 - http://haruair.com/blog/2617
 - http://blog.naver.com/lestat85/220410949456

@@ -86,7 +86,7 @@ netstat -tnlp | grep -v 127.0.0.1 | sed 's/:::/0 /g' | sed 's/[:\/]/ /g' | awk '
 
 // 특정포트의 방화벽해제
 sudo iptables -I INPUT 1 -p tcp --dport 9200 -j ACCEPT
-
+service iptables stop
 
 lsof -i -P | grep -i "listen"
 
