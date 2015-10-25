@@ -38,6 +38,9 @@
 
 - SpringBoot -> study_SpringBoot
    - Controller / Service / Configuration
+   - Web Application : REST API / Web service
+   - CLI console program
+   - Batch program
 - lombok : 애노테이션으로 자바코드를 간단하게
    - https://www.lesstif.com/display/JAVA/Lombok+-+Java+annotation+library
 - Java Json Parser

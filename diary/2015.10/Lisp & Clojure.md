@@ -100,7 +100,7 @@
 - Lumos
    - API서버 구성을 위한 lein template
 
-- (1) Application Server library - immutant
+- (1) Application Server library - immutant2
    - immutant/web : Netty와같은 비동기 애플리케이션서버
 - (2) Servlet Abstraction library
    - Ring : Servlet Wrapper라이브러리, 기본컨테이너로 jetty사용 / Servlet 2.5
@@ -123,9 +123,16 @@
    - Clojure var!, Server에서 사용하는 상테있는 resource가 많다.
    - Connection Pool / Server resource Lifecycle 관리
    - Stuart Sierra Component : 시스템으로 Component의 의존관계를 정의하고..
+   - component
 - (8) API Document library
    - Swagger : HTTP API를 정의하는 Spec
    - fnhouse 문서제공보다는 request/response체크에 중점
+   - Pedestal-swagger
+
+#### library선택의 고민
+- Contextual vs Composable
+   - Composable : 유연, 유지보수, 다목적 / 큰책임, 훈력이필요, 정해진규칙이없음
+   - Contextual : 문제가 해결되어있음, 사용이편리함 / 다른문제를 해결하지못함, 유지보수가필요
 
 ---
 ### CommonLisp으로 하는 실시간 WebGL 프로그래밍
