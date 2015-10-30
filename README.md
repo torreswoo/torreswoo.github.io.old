@@ -62,6 +62,8 @@
    - Clojure HTTP API 서버 구현을 위한 라이브러리 / Kakao 김은민
    - CommonLisp으로 하는 실시간 WebGL 프로그래밍
 
+- Python
+   - web HTTP Client모듈 : urllib2 / httplib / http.client
 
 ---
 

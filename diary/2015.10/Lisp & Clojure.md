@@ -66,6 +66,7 @@
 
 ---
 ### iOS 앱 개발 with React Native + ClojureScript
+- http://www.slideshare.net/cheolhee/ios-app-with-react-native-clojurescript
 - iOS app dev with Clojure
    - Native App : RoboVM -> **Swift**
    - Hybrid App + ClojureScript -> 하이브리드앱은...
@@ -78,6 +79,7 @@
 
 ---
 ### Clojure HTTP API 서버 구현을 위한 라이브러리 / Kakao 김은민
+- http://www.slideshare.net/eunminn/clojure-http-api
 
 #### HTTP Server Application
 - Framework
