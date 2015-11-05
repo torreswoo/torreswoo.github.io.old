@@ -13,12 +13,9 @@
 
 ---
 
-#### 2015.09
-- [Magnum : using OpenStack with Kubernete]( )
-- [URL 설계 : RPC, REST, elegant]()
-- study_python : WebProgramming (web server & client module)
-- [vagrant & Chef : 개발환경관리]()
-
+#### 2015.11
+- 95th Percentile Rule : http://www.init7.net/en/backbone/95-percent-rule
+- ElasticSearch : Percentile Aggregation
 #### 2015.10
 - ElasticSearch -> study_ElasticSearch
    - ElasticSearch REST API : https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
@@ -64,6 +61,14 @@
 
 - Python
    - web HTTP Client모듈 : urllib2 / httplib / http.client
+
+
+#### 2015.09
+- [Magnum : using OpenStack with Kubernete]( )
+- [URL 설계 : RPC, REST, elegant]()
+- study_python : WebProgramming (web server & client module)
+- [vagrant & Chef : 개발환경관리]()
+
 
 ---
 
