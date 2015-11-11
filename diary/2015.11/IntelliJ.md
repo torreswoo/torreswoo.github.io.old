@@ -1,5 +1,5 @@
 ### IntelliJ
-- option + command + t
+- option + command + t //
 - ctrl + enter : getter/setter등 자동완성
 - alt + enter : import
 - Groovy / Spock : http://d2.naver.com/helloworld/568425

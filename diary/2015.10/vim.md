@@ -97,3 +97,35 @@ echo "done"
 
 
 - ~/.vim/plugin/cscope_maps.vim <== 플러그인 파일을 받아온다
+
+
+### Python
+- http://pythoninreal.blogspot.kr/2013/12/vim-python.html
+```
+1. Tab 설정 및 Syntax Color 설정
+- http://www.vim.org/scripts/script.php?script_id=790 사이트에서 python.vim 파일을 다운로드 받아 ~/.vim/syntax/ 폴더에 복사
+- ~/.vimrc 파일에는 아래와 같이 추가
+syntax on
+filetype plugin indent on
+
+- Tab 설정은 ~/.vim/ftplugin/python.vim 파일에 아래와 같이 추가
+set tabstop=8
+set softtabstop=4
+set shiftwidth=4
+set textwidth=100
+set expandtab
+set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+set nocindent
+
+2. Tagging 및 소스코드 브라우징
+- ctags -R 을 실행
+- tagging 정보에는 클래스와 함수만 포함되는 것이 코드 브라우징을 사용하기 수월합니다. 이를 위해 ~/.ctags 파일에 아래와 같은 내용을 추가
+--python-kinds=-iv
+--exclude=build
+--exclude=dist
+
+3. Auto Completion 기능 : jedi-vim
+- https://github.com/davidhalter/jedi-vim
+- cd ~/.vim/bundle/ && git clone --recursive https://github.com/davidhalter/jedi-vim.git
+- vim => PluginList & PluginInstall
+```
