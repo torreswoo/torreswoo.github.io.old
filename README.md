@@ -21,6 +21,8 @@
 - AWSKRUG 기술컨퍼런스 re:Invent특집
 - AWSKRUG 4회 정기 세미나
 - node.js -> study_nodejs
+- PHP codeception
+- Flask (by SKP SSD) 
 
 #### 2015.10
 - Slack & Hubot & Heroku

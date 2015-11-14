@@ -1,6 +1,7 @@
 ### vim
 - http://vimawesome.com/?q=cscope
 - http://often.tistory.com/109
+- 단축키 http://blog.outsider.ne.kr/540
 ### vundle
 - Source Explorer
 - Tag List
@@ -99,7 +100,7 @@ echo "done"
 - ~/.vim/plugin/cscope_maps.vim <== 플러그인 파일을 받아온다
 
 
-### Python
+### Python vim 개발환경 설정
 - http://pythoninreal.blogspot.kr/2013/12/vim-python.html
 ```
 1. Tab 설정 및 Syntax Color 설정
