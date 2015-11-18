@@ -130,3 +130,6 @@ set nocindent
 - cd ~/.vim/bundle/ && git clone --recursive https://github.com/davidhalter/jedi-vim.git
 - vim => PluginList & PluginInstall
 ```
+
+### Javascript vim 개발환경 설정
+- https://docs.oseems.com/general/application/vim/auto-complete-javascript

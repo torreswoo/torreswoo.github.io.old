@@ -22,7 +22,9 @@
 - AWSKRUG 4회 정기 세미나
 - node.js -> study_nodejs
 - PHP codeception
-- Flask (by SKP SSD) 
+- Flask (by SKP SSD)
+- Slack : slack-node-sdk & Incoming WebHooks
+- jira :
 
 #### 2015.10
 - Slack & Hubot & Heroku
