@@ -3,7 +3,7 @@
 // https://github.com/clonn/slack-node-sdk
  var Slack = require('slack-node');
 
- webhookUri = "https://hooks.slack.com/services/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"; // torreswoo.slack.com
+ webhookUri = "https://hooks.slack.com/services/........"; // torreswoo.slack.com
 
  var config = {
     channel : "#general",
@@ -31,8 +31,8 @@ var config = {
    protocol : 'http',
    host : 'jira.skplanet.com',
    port : 80,
-   user : '1002475',
-   password : 'woo560912@',
+   user : '....',
+   password : '...',
    version :'2'
 };
 var jira = new JiraApi(config.protocol,

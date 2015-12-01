@@ -1,4 +1,5 @@
 ### vim
+- 명령어 : http://bboy6604.tistory.com/entry/Vim-%EB%AA%85%EB%A0%B9%EC%96%B4
 - http://vimawesome.com/?q=cscope
 - http://often.tistory.com/109
 - 단축키 http://blog.outsider.ne.kr/540
@@ -132,4 +133,13 @@ set nocindent
 ```
 
 ### Javascript vim 개발환경 설정
-- https://docs.oseems.com/general/application/vim/auto-complete-javascript
+- vim
+   - ternjs : https://github.com/ternjs/tern_for_vim
+   - https://docs.oseems.com/general/application/vim/auto-complete-javascript
+      ```
+      autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+      ```
+- Atom
+   - atom-ternjs
+   - Eval Javascript : cmd + i
+   - language-javascript-semantic

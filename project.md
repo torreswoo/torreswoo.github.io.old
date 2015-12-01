@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title> Template </title>
-   </head>
-   <body>
-      Hello this is the template Project
+# PHP
 
+
+
+# Nginx
+
+
+
+
+
+---
+
+## Test
 aws : EC2
 
 0_0. [setting] yum설정
 - vi  /etc/yum.repos.d/epel.repo 에서 baseurl을주석해제하고, mirrorlist를 주석
 
 0_1. [setting] linux terminal
-# vi ~/.bashrc
+# vi ~/.bashr
 # Source global definitions
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
@@ -129,5 +133,7 @@ DocumentRoot "/home/ec2-user/app/apache/htdocs"
 
 http://52.69.115.72:80
 
-   </body>
-</html>
+
+---
+
+##

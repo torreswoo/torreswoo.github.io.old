@@ -23,8 +23,19 @@
 - node.js -> study_nodejs
 - PHP codeception
 - Flask (by SKP SSD)
-- Slack : slack-node-sdk & Incoming WebHooks
-- jira :
+
+- Angular.js예제 : http://plnkr.co/edit/KF3vdSqEW9xpjbUZGQ8n?p=preview
+- Backbone.js
+- jQuery
+
+- Slack & jira & Github연동
+   - Slack : slack-node-sdk & Incoming WebHooks
+   - jira :
+   - github
+
+- HLS : Adaptive Bitrate Streaming
+
+- project.md update : Nginx / PHP & Codeception / ds(streaming server)
 
 #### 2015.10
 - Slack & Hubot & Heroku
